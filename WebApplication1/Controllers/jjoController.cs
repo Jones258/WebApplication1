@@ -6,14 +6,14 @@ using System.Web.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    public class jjoController : Controllers
+    public class jjoController : Controller
     {
         // GET: jjo
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult dds()
+        public ActionResult das()
         {
             return View();
         }
